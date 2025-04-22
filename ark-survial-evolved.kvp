@@ -7,7 +7,7 @@ App.ApplicationReadyMode=RCONConnected
 App.BaseDirectory=./ark-survial-evolved/376030/
 App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{$RemoteAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}}?{{$FormattedArgs}}{{OverrideOfficialDifficulty}}{{CustomOptions}} {{automanagedmods}}{{exclusivejoin}}{{BattlEye}}{{crossplay}}{{epiconly}}{{UseVivox}}{{insecure}}{{EnableIdlePlayerKick}}{{AllowFlyerSpeedLeveling}}{{ForceAllowCaveFlyers}}{{nodinos}}{{PreventHibernation}}{{ForceRespawnDinos}}{{DisableRailgunPVP}}{{UseStructureStasisGrid}}{{AutoDestroyStructures}} -ActiveEvent={{ActiveEvent}} -PublicIPForEpic={{PublicIPForEpic}} -culture={{culture}} -ClusterDirOverride="{{ClusterDirOverride}}" -clusterid={{clusterid}} {{CustomFlags}} -servergamelog
 App.CommandLineParameterDelimiter=?
-App.CommandLineParameterFormat=-{0} "{1}"
+App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
 App.DisplayName=ARK Survial Evolved (HAMSTER)
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"346110"}

@@ -1,7 +1,128 @@
 [
     {
+        "DisplayName": "Server Name",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Settings",
+        "Description": "Set the name of the server as it would appear publicly.",
+        "Keywords": "server,name",
+        "FieldName": "SessionName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SessionName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AMP Power ARK Survival Evolved Server",
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Message of the Day",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Settings",
+        "Description": "Sets the player welcome message (MOTD)",
+        "Keywords": "message,welcome,motd",
+        "FieldName": "MOTDMessage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MessageOfTheDay.Message",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Welcome to ARK!",
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Message of the Day Duration",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Settings",
+        "Description": "Sets the time period for display of the Message of the Day (MOTD)",
+        "Keywords": "motd,message,period,duration",
+        "FieldName": "MOTDDuration",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MessageOfTheDay.Duration",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "20",
+        "Placeholder": "20",
+        "Suffix": "seconds",
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Map",
+        "Category": "ARK Settings",
+        "Subcategory": "Maps and Mods",
+        "Description": "Sets the map for the server. If Custom is selected, Custom Map Name must also be set",
+        "Keywords": "map",
+        "FieldName": "Map",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Map",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "TheIsland",
+        "EnumValues": {
+            "Aberration_P": "Aberration",
+            "CrystalIsles": "Crystal Isles",
+            "Extinction": "Extinction",
+            "Fjordur": "Fjordur",
+            "Genesis": "Genesis: Part 1",
+            "Gen2": "Genesis: Part 2",
+            "LostIsland": "Lost Island",
+            "Ragnarok": "Ragnarok",
+            "ScorchedEarth_P": "Scorched Earth",
+            "TheCenter": "The Center",
+            "TheIsland": "The Island (default)",
+            "Valguero_P": "Valguero",
+            "{{CustomMap}}": "Custom"
+        }
+    },
+    {
+        "DisplayName": "Custom Map Name",
+        "Category": "ARK Settings",
+        "Subcategory": "Maps and Mods",
+        "Description": "Sets a custom map for the server. \"Custom\" type must be selected under Map, and the map files included in ShooterGame/Content/Mods. Automatically Manage Mods can be used for this purpose",
+        "Keywords": "custom,map",
+        "FieldName": "CustomMap",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "CustomMap",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "Caballus_P",
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Automatically Manage Mods",
+        "Category": "ARK Settings",
+        "Subcategory": "Maps and Mods",
+        "Description": "If set, enables automatic mod download and updating (on server start). Specify the relevant mods under Mods List. Alternatively, specify them in Game.ini under the heading [ModInstaller] and with one mod per line in the format: ModIDS=<value>",
+        "Keywords": "auto,managed,mods,automanagedmods",
+        "FieldName": "automanagedmods",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "automanagedmods",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "-automanagedmods ",
+        "EnumValues": {
+            "False": "",
+            "True": "-automanagedmods "
+        }
+    },
+    {
+        "DisplayName": "Mods List",
+        "Category": "ARK Settings",
+        "Subcategory": "Maps and Mods",
+        "Description": "Comma-separated and ordered list of IDs of mods to load (map mods will not load unless named as a \"Custom\" map under Custom Map Name). ONE LINE ONLY! Mod files must be in ShooterGame/Content/Mods. If \"Automatically Manage Mods\" is enabled, the mods listed will be installed by the server",
+        "Keywords": "load,mods,gamemodids,activemods",
+        "FieldName": "GameModIds",
+        "InputType": "Textarea",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameModIds",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "EnumValues": { }
+    },
+    {
         "DisplayName": "Enable Flyer Carry",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "If enabled, allows flying dinosaurs to pick up other dinosaurs and players if mounted by a player in PVE",
         "Keywords": "enable,flyer,carry",
         "FieldName": "AllowFlyerCarryPVE",
@@ -21,7 +142,8 @@
     },
     {
         "DisplayName": "XP Multiplier",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Sets the scaling factor for the experience recieved players. Higher values increase XP while lower values decrease XP",
         "Keywords": "xp,multiplier",
         "FieldName": "XPMultiplier",
@@ -34,11 +156,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Damage",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for the damage dealt by attacks. ",
         "Keywords": "damage",
         "FieldName": "PlayerDamageMultiplier",
@@ -51,11 +174,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Resistance",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for damage taken when attacked.",
         "Keywords": "resistance",
         "FieldName": "PlayerResistanceMultiplier",
@@ -68,11 +192,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Water Drain",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for water consumption",
         "Keywords": "water,drain",
         "FieldName": "PlayerCharacterWaterDrainMultiplier",
@@ -85,11 +210,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Food Drain",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for food consumption",
         "Keywords": "food,drain",
         "FieldName": "PlayerCharacterFoodDrainMultiplier",
@@ -102,11 +228,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Stamina Drain",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for stamina consumption",
         "Keywords": "stamina,drain",
         "FieldName": "PlayerCharacterStaminaDrainMultiplier",
@@ -119,11 +246,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Health Recovery",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for health recovery",
         "Keywords": "health,recovery",
         "FieldName": "PlayerCharacterHealthRecoveryMultiplier",
@@ -136,11 +264,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Harvesting Damage",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the scaling factor for the harvest damage rate",
         "Keywords": "harvesting,damage",
         "FieldName": "HarvestAmountMultiplier",
@@ -153,11 +282,12 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     },
     {
         "DisplayName": "Crafting Skill Bonus Multiplier",
-        "Category": "Player Settings",
+        "Category": "ARK Settings",
+        "Subcategory": "Player Settings",
         "Description": "Specifies the multiplier for crafting bonus",
         "Keywords": "crafting,skill,bonus,multiplier",
         "FieldName": "CraftingSkillBonusMultiplier",
@@ -170,6 +300,6 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {}
+        "EnumValues": { }
     }
 ]

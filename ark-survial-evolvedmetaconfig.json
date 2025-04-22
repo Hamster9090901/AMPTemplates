@@ -1,0 +1,41 @@
+[
+    {
+        "ConfigFile": "376030/ShooterGame/Config/GameSettings.ini",
+        "ConfigType": "ini",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigFormat": "{0}={1}",
+        "Subsections": [
+            {
+                "Heading": "/script/shootergame.shootergamemode",
+                "SettingMappings": {
+
+                    "CraftingSkillBonusMultiplier": "CraftingSkillBonusMultiplier"
+                }
+            }
+        ]
+    },
+    {
+        "ConfigFile": "376030/ShooterGame/Config/GameUserSettings.ini",
+        "ConfigType": "ini",
+        "AutoMap": true,
+        "Importable": true,
+        "ConfigFormat": "{0}={1}",
+        "Subsections": [
+            {
+                "Heading": "ServerSettings",
+                "SettingMappings": {
+
+                    "AllowFlyerCarryPVE": "AllowFlyerCarryPVE",
+                    "XPMultiplier": "XPMultiplier",
+                    "PlayerResistanceMultiplier": "PlayerResistanceMultiplier",
+                    "PlayerCharacterWaterDrainMultiplier": "PlayerCharacterWaterDrainMultiplier",
+                    "PlayerCharacterFoodDrainMultiplier": "PlayerCharacterFoodDrainMultiplier",
+                    "PlayerCharacterStaminaDrainMultiplier": "PlayerCharacterStaminaDrainMultiplier",
+                    "PlayerCharacterHealthRecoveryMultiplier": "PlayerCharacterHealthRecoveryMultiplier",
+                    "HarvestAmountMultiplier": "HarvestAmountMultiplier"
+                }
+            }
+        ]
+    }
+]

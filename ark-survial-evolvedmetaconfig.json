@@ -4,16 +4,7 @@
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,
-        "ConfigFormat": "{0}={1}",
-        "Subsections": [
-            {
-                "Heading": "/script/shootergame.shootergamemode",
-                "SettingMappings": {
-
-                    "CraftingSkillBonusMultiplier": "CraftingSkillBonusMultiplier"
-                }
-            }
-        ]
+        "ConfigFormat": "{0}={1}"
     },
     {
         "ConfigFile": "ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",

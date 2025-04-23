@@ -4,7 +4,17 @@
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,
-        "ConfigFormat": "{0}={1}"
+        "ConfigFormat": "{0}=\"{1}\"",
+        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$",
+        "Subsections": [
+            {
+                "Heading": "/script/shootergame.shootergamemode",
+                "SettingMappings": {
+
+                    "CraftingSkillBonusMultiplier": "CraftingSkillBonusMultiplier"
+                }
+            }
+        ]
     },
     {
         "ConfigFile": "ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",
@@ -12,6 +22,22 @@
         "AutoMap": true,
         "Importable": true,
         "ConfigFormat": "{0}=\"{1}\"",
-        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
+        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$",
+        "Subsections": [
+            {
+                "Heading": "ServerSettings",
+                "SettingMappings": {
+
+                    "AllowFlyerCarryPVE": "AllowFlyerCarryPVE",
+                    "XPMultiplier": "XPMultiplier",
+                    "PlayerResistanceMultiplier": "PlayerResistanceMultiplier",
+                    "PlayerCharacterWaterDrainMultiplier": "PlayerCharacterWaterDrainMultiplier",
+                    "PlayerCharacterFoodDrainMultiplier": "PlayerCharacterFoodDrainMultiplier",
+                    "PlayerCharacterStaminaDrainMultiplier": "PlayerCharacterStaminaDrainMultiplier",
+                    "PlayerCharacterHealthRecoveryMultiplier": "PlayerCharacterHealthRecoveryMultiplier",
+                    "HarvestAmountMultiplier": "HarvestAmountMultiplier"
+                }
+            }
+        ]
     }
 ]

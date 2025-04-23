@@ -293,7 +293,7 @@
         "FieldName": "CraftingSkillBonusMultiplier",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "/script/shootergame.shootergamemode.CraftingSkillBonusMultiplier",
+        "ParamFieldName": "Game.CraftingSkillBonusMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": "1.0",
         "Placeholder": "1.0",

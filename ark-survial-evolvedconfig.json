@@ -149,7 +149,7 @@
         "FieldName": "XPMultiplier",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "XPMultiplier",
+        "ParamFieldName": "GameUserSettings.XPMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": "1.0",
         "Placeholder": "1.0",

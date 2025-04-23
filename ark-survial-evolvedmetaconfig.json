@@ -22,22 +22,6 @@
         "AutoMap": true,
         "Importable": true,
         "ConfigFormat": "{0}=\"{1}\"",
-        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$",
-        "Subsections": [
-            {
-                "Heading": "ServerSettings",
-                "SettingMappings": {
-
-                    "AllowFlyerCarryPVE": "AllowFlyerCarryPVE",
-                    "XPMultiplier": "XPMultiplier",
-                    "PlayerResistanceMultiplier": "PlayerResistanceMultiplier",
-                    "PlayerCharacterWaterDrainMultiplier": "PlayerCharacterWaterDrainMultiplier",
-                    "PlayerCharacterFoodDrainMultiplier": "PlayerCharacterFoodDrainMultiplier",
-                    "PlayerCharacterStaminaDrainMultiplier": "PlayerCharacterStaminaDrainMultiplier",
-                    "PlayerCharacterHealthRecoveryMultiplier": "PlayerCharacterHealthRecoveryMultiplier",
-                    "HarvestAmountMultiplier": "HarvestAmountMultiplier"
-                }
-            }
-        ]
+        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
     }
 ]

@@ -55,6 +55,15 @@
         "OverwriteExistingFiles": false
     },
     {
+        "UpdateStageName": "GameUserSettings.ini Config Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Hamster9090901/AMPTemplates/main/ark-survival-evolvedwindows-GameUserSettings.ini",
+        "UpdateSourceArgs": "GameUserSettings.ini",
+        "UpdateSourceTarget": "{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer/",
+        "OverwriteExistingFiles": false
+    },
+    {
         "UpdateStageName": "First Backup Exclusions Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",

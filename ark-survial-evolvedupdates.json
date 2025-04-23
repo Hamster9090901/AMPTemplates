@@ -37,7 +37,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd ark-se/376030/ShooterGame/Binaries && rm -rf Win64 >/dev/null 2>&1; ln -s Linux Win64\"",
+        "UpdateSourceArgs": "-c \"cd ark-survival-evolved/376030/ShooterGame/Binaries && rm -rf Win64 >/dev/null 2>&1; ln -s Linux Win64\"",
         "SkipOnFailure": false
     },
     {

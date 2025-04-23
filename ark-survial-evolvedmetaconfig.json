@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "376030/ShooterGame/Saved/Config/WindowsServer/GameSettings.ini",
+        "ConfigFile": "ShooterGame/Saved/Config/WindowsServer/GameSettings.ini",
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "ConfigFile": "376030/ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",
+        "ConfigFile": "ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,

@@ -119,6 +119,99 @@
         "Placeholder": "",
         "EnumValues": { }
     },
+
+
+
+    {
+        "DisplayName": "Max Players",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Specifies the maximum number of players who can be on the server at any given time.",
+        "Keywords": "max,player,count",
+        "FieldName": "$MaxPlayers",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 255,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 70,
+        "Placeholder": 70,
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Language",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Sets the language of the server.",
+        "Keywords": "language,culture",
+        "FieldName": "culture",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "culture",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "en",
+        "EnumValues": {
+            "ca": "Català",
+            "cs": "čeština",
+            "da": "dansk",
+            "de": "Deutsch",
+            "en": "English (default)",
+            "es": "Español",
+            "eu": "euskara",
+            "fi": "suomi",
+            "fr": "Français",
+            "hu": "magyar",
+            "it": "Italiano",
+            "ja": "日本語",
+            "ka": "ქართული",
+            "ko": "한국어",
+            "nl": "Nederlands",
+            "pl": "Polski",
+            "pt_BR": "Português brasileiro",
+            "ru": "Русский",
+            "sv": "Svenska",
+            "th": "ไทย",
+            "tr": "Türkçe",
+            "zh": "中文",
+            "zh-Hans-CN": "使用者",
+            "zh-TW": "国语"
+        }
+    },
+    {
+        "DisplayName": "Enable Idle Timeout",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Causes players who have not moved or interacted within the Kick Idle Player Period to be kicked.",
+        "Keywords": "player,kick,idle,timeout",
+        "FieldName": "EnableIdlePlayerKick",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "EnableIdlePlayerKick",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-EnableIdlePlayerKick"
+        }
+    },
+    {
+        "DisplayName": "Kick Idle Player Period",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Time after which characters that have not moved or interacted will be kicked (if Enable Idle Timeout is enabled).",
+        "Keywords": "player,kick,idle,timeout",
+        "FieldName": "KickIdlePlayersPeriod",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 7200,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/shootergame.shootergamemode.KickIdlePlayersPeriod",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 3600,
+        "Placeholder": 3600,
+        "EnumValues": { }
+    },
     {
         "DisplayName": "Disable Valve Anti-Cheat",
         "Category": "ARK Settings",
@@ -154,6 +247,341 @@
         }
     },
     {
+        "DisplayName": "Disable Player-Move-Physics Optimization",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Server player-move-physics optimization is enabled by default (improves perf) using this will disable the optimization",
+        "Keywords": "player,move,physics,optimization,disable",
+        "FieldName": "nocombineclientmoves",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "nocombineclientmoves",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-nocombineclientmoves "
+        }
+    },
+    {
+        "DisplayName": "No Dinos",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Prevents wild dinos from being spawned. NOTE: you will need to wipe dinos (cheat destroywilddinows) if using this on an existing server.",
+        "Keywords": "no,dino,disable",
+        "FieldName": "nodinos",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "nodinos",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-nodinos "
+        }
+    },
+    {
+        "DisplayName": "No Undermesh Checking",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "If enabled, turn off the anti meshing system entirely.",
+        "Keywords": "no,undermesh,checking,disable",
+        "FieldName": "noundermeshchecking",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "noundermeshchecking",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-noundermeshchecking "
+        }
+    },
+    {
+        "DisplayName": "No Undermesh Killing",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "If enabled, turn off the anti meshing player kills (but still allow teleporting).",
+        "Keywords": "no,undermesh,killing,disable",
+        "FieldName": "noundermeshkilling",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "noundermeshkilling",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-noundermeshkilling "
+        }
+    },
+    {
+        "DisplayName": "Enable Vivox",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "If set, enables Vivox on Steam only servers. (Vivox is the default for Epic Game Store enabled servers)",
+        "Keywords": "vivox,usevivox",
+        "FieldName": "UseVivox",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "UseVivox",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-UseVivox "
+        }
+    },
+    {
+        "DisplayName": "Allow Shared Connections",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables players borrowing game with Steam Family Sharing to connect.",
+        "Keywords": "allow,shared,connections,enable",
+        "FieldName": "AllowSharedConnections",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.AllowSharedConnections",
+        "IncludeInCommandLine": false,
+        "DefaultValue": false,
+        "EnumValues": { }
+    },
+    {
+        "DisplayName": "Additional Dupe Protection",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables additional dupe protection. (Note: this could have an impact on mods, so use with caution)",
+        "Keywords": "dupe,protection,enable",
+        "FieldName": "UseItemDupeCheck",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "UseItemDupeCheck",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-UseItemDupeCheck "
+        }
+    },
+    {
+        "DisplayName": "Force Respawn Dinos on Startup (Causes lag while repopulating)",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Whis command will destroy all wild creatures once the server starts. (This will only destroy wild creatures that are NOT currently being tamed)",
+        "Keywords": "dino,respawn,startup",
+        "FieldName": "ForceRespawnDinos",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ForceRespawnDinos",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-ForceRespawnDinos "
+        }
+    },
+    {
+        "DisplayName": "Disable Anti-Speed Hack Detection",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Disables Anti Speed Hack Detection.",
+        "Keywords": "disable,anti,speed,hack",
+        "FieldName": "noantispeedhack",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "noantispeedhack",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-noantispeedhack "
+        }
+    },
+    {
+        "DisplayName": "Force DirectX 10",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "The game is forced to use DX10 instead of DX11 by sm4. Be sure to launch it accurately, you are not going to miss out on anything. (Windows Only)",
+        "Keywords": "directx,force",
+        "FieldName": "d3d10",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "d3d10",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-d3d10 "
+        }
+    },
+    {
+        "DisplayName": "Force Shader Model 4",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "The game is forced to use Shader Model 4 instead of the Shader Model 5 as usual. Well, there is no much difference, the game still looks and feels the same, but you can obtain better performance. (Reported to increase frames but changes the game lighting). (Windows Only)",
+        "Keywords": "force,shader,model",
+        "FieldName": "sm4",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sm4",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-sm4 "
+        }
+    },
+    {
+        "DisplayName": "Force Low Memory",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Launch option that reduces graphics and audio effects to save about 800 MB RAM, likely enabling 4GB RAM players to get past infinite-loading screens.",
+        "Keywords": "force,low,memory",
+        "FieldName": "lowmemory",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "lowmemory",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-lowmemory "
+        }
+    },
+    {
+        "DisplayName": "Force No Man Sky",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Lots of detailed sky features are disabled, such as clouts and starry night sky. This decreases all of those but you can still have them. You still obtain the stars, the sun, and the moon. This just helps you remove the sparkling stars that make you sightless at night.",
+        "Keywords": "force,no,man,sky,night",
+        "FieldName": "nomansky",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "nomansky",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-nomansky "
+        }
+    },
+    {
+        "DisplayName": "Use No Memory Bias",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Reduced client game memory usage by about 600 MB system and 600 MB GPU RAM! (all meshes now stream LOD's dynamically). This could potentially have a small runtime performance impact, so to use the old method (more RAM usage but no potential performance loss).",
+        "Keywords": "memory,bias",
+        "FieldName": "nomemorybias",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "nomemorybias",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-nomemorybias "
+        }
+    },
+    {
+        "DisplayName": "Stasis Keep Controllers",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "AI Controllers to once again be destroyed on Stasis, too much memory overhead to keeping them around on large maps. For servers with a lot of RAM, they can now optionally gain performance by running with this to keep the AI's in memory.",
+        "Keywords": "stasis,keep,controllers",
+        "FieldName": "StasisKeepControllers",
+        "IsFlagArgument": false,
+        "ParamFieldName": "StasisKeepControllers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-StasisKeepControllers "
+        }
+    },
+    {
+        "DisplayName": "Server Allow Ansel",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Activates NVIDIA Ansel support. When connecting to a server, this will cause most lights (lamps) to no longer function, even when powered and lit unless the server has allowed it.",
+        "Keywords": "server,ansel,nvidea",
+        "FieldName": "allowansel",
+        "IsFlagArgument": false,
+        "ParamFieldName": "allowansel",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-allowansel "
+        }
+    },
+    {
+        "DisplayName": "Enable Structure Memory Optimizations",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables structure memory optimizations. NOTE: avoid using it when running structure-related mods (until they get updated) as it can break the snappoints of mod structures.",
+        "Keywords": "optimization,structure,memory",
+        "FieldName": "structurememopts",
+        "IsFlagArgument": false,
+        "ParamFieldName": "structurememopts",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-structurememopts "
+        }
+    },
+    {
+        "DisplayName": "Enable Structure Stasis Grid",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables the Structure Stasis Grid to improve server performance on large bases with lots of players.",
+        "Keywords": "optimization,structure,stasis",
+        "FieldName": "UseStructureStasisGrid",
+        "IsFlagArgument": false,
+        "ParamFieldName": "UseStructureStasisGrid",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-UseStructureStasisGrid "
+        }
+    },
+    {
+        "DisplayName": "Enable Crossplay",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables Crossplay (between EPIC and Steam) on Dedicated Servers.",
+        "Keywords": "crossplay",
+        "FieldName": "crossplay",
+        "IsFlagArgument": false,
+        "ParamFieldName": "crossplay",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-crossplay "
+        }
+    },
+    {
+        "DisplayName": "Epic Only",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "Enables Epic Game Store only players to connect to the Dedicated Server.",
+        "Keywords": "epic,only",
+        "FieldName": "epiconly",
+        "IsFlagArgument": false,
+        "ParamFieldName": "epiconly",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-epiconly "
+        }
+    },
+
+
+
+
+    {
         "DisplayName": "Enable Flyer Carry",
         "Category": "ARK Settings",
         "Subcategory": "Player Settings",
@@ -164,15 +592,12 @@
         "IsFlagArgument": false,
         "ParamFieldName": "ServerSettings.AllowFlyerCarryPVE",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
-        "Placeholder": "false",
+        "DefaultValue": false,
+        "Placeholder": false,
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "True": "True",
-            "False": "False"
-        }
+        "EnumValues": { }
     },
     {
         "DisplayName": "XP Multiplier",

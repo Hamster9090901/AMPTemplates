@@ -120,6 +120,40 @@
         "EnumValues": { }
     },
     {
+        "DisplayName": "Disable Valve Anti-Cheat",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "If set, disables Valve Anti-Cheat (VAC). Only works on Windows",
+        "Keywords": "valve,anti,cheat,anticheat,insecure",
+        "FieldName": "insecure",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "insecure",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-insecure "
+        }
+    },
+    {
+        "DisplayName": "Disable BattlEye",
+        "Category": "ARK Settings",
+        "Subcategory": "Server Options",
+        "Description": "If set, BattlEye will be disabled on the server",
+        "Keywords": "battleye,disable,nobattleye",
+        "FieldName": "BattlEye",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "BattlEye",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "-NoBattlEye "
+        }
+    },
+    {
         "DisplayName": "Enable Flyer Carry",
         "Category": "ARK Settings",
         "Subcategory": "Player Settings",

@@ -4,7 +4,7 @@ App.AdminPortRef=RCONPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=RCONConnected
 App.BaseDirectory=./ark-survial-evolved/376030/
-App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{$RemoteAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} -servergamelog
+App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{$RemoteAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} {{insecure}}{{BattleEye}} -servergamelog
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None

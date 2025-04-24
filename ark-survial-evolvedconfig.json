@@ -8,7 +8,7 @@
         "FieldName": "SessionName",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "SessionName",
+        "ParamFieldName": "SessionSettings.SessionName",
         "IncludeInCommandLine": false,
         "DefaultValue": "AMP Power ARK Survival Evolved Server",
         "EnumValues": { }

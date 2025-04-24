@@ -4,24 +4,15 @@
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,
-        "ConfigFormat": "{0}=\"{1}\"",
-        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$",
-        "Subsections": [
-            {
-                "Heading": "/script/shootergame.shootergamemode",
-                "SettingMappings": {
-
-                    "CraftingSkillBonusMultiplier": "CraftingSkillBonusMultiplier"
-                }
-            }
-        ]
+        "ConfigFormat": "{0}={1}",
+        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
     },
     {
         "ConfigFile": "ShooterGame/Saved/Config/WindowsServer/GameUserSettings.ini",
         "ConfigType": "ini",
         "AutoMap": true,
         "Importable": true,
-        "ConfigFormat": "{0}=\"{1}\"",
-        "ConfigFormatRegex": "^(?<key>.+?)=\"?(?<value>.+?)?\"?$"
+        "ConfigFormat": "{0}={1}",
+        "ConfigFormatRegex": "^(?<key>.+?)=?(?<value>.+?)??$"
     }
 ]

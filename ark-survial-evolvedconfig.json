@@ -944,7 +944,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -961,7 +961,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -978,7 +978,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -995,7 +995,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -1012,7 +1012,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -1029,7 +1029,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -1046,7 +1046,7 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
@@ -1063,14 +1063,14 @@
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
         "Placeholder": 1.0,
-        "Suffix": "Multiplier",
+        "Suffix": "x",
         "EnumValues": { }
     },
     {
         "DisplayName": "Crafting Skill Bonus Multiplier",
         "Category": "ARK Settings",
         "Subcategory": "Player Settings",
-        "Description": "Specifies the multiplier for crafting bonus",
+        "Description": "Specifies the multiplier for crafting bonus.",
         "Keywords": "crafting,skill,bonus,multiplier",
         "FieldName": "CraftingSkillBonusMultiplier",
         "InputType": "number",
@@ -1079,7 +1079,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.CraftingSkillBonusMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Max Fall Speed Multiplier",
@@ -1094,7 +1094,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.MaxFallSpeedMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Health Stat Multiplier",
@@ -1109,7 +1109,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[0]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Stamina Stat Multiplier",
@@ -1124,7 +1124,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[1]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Torpidity Stat Multiplier",
@@ -1139,7 +1139,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[2]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Oxygen Stat Multiplier",
@@ -1154,7 +1154,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[3]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Food Stat Multiplier",
@@ -1169,7 +1169,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[4]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Water Stat Multiplier",
@@ -1184,7 +1184,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[5]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Temperature Stat Multiplier",
@@ -1199,7 +1199,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[6]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Weight Stat Multiplier",
@@ -1214,7 +1214,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[7]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Melee Damage Stat Multiplier",
@@ -1229,7 +1229,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[8]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Speed Stat Multiplier",
@@ -1244,7 +1244,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[9]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Fortitude Stat Multiplier",
@@ -1259,7 +1259,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[10]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Base Crafting Speed Stat Multiplier",
@@ -1274,7 +1274,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PlayerBaseStatMultipliers[11]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Health Stat Multiplier",
@@ -1289,7 +1289,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[0]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Stamina Stat Multiplier",
@@ -1304,7 +1304,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[1]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Torpidity Stat Multiplier",
@@ -1319,7 +1319,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[2]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Oxygen Stat Multiplier",
@@ -1334,7 +1334,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[3]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Food Stat Multiplier",
@@ -1349,7 +1349,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[4]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Water Stat Multiplier",
@@ -1364,7 +1364,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[5]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Temperature Stat Multiplier",
@@ -1379,7 +1379,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[6]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Weight Stat Multiplier",
@@ -1394,7 +1394,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[7]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Melee Damage Stat Multiplier",
@@ -1409,7 +1409,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[8]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Speed Stat Multiplier",
@@ -1424,7 +1424,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[9]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Fortitude Stat Multiplier",
@@ -1439,7 +1439,7 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[10]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
     },
     {
         "DisplayName": "Per Level Crafting Speed Stat Multiplier",
@@ -1454,6 +1454,408 @@
         "ParamFieldName": "/script/shootergame.shootergamemode.PerLevelStatsMultiplier_Player[11]",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Suffix": "Multiplier"
+        "Suffix": "x"
+    },
+
+
+
+
+
+    {
+        "DisplayName": "Dino Spawns",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for dinosaur spawns. Higher values increase the number of dinosaurs spawned throughout the ARK.",
+        "Keywords": "dino,spawn,count",
+        "FieldName": "DinoCountMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.DinoCountMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Taming Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for dinosaur taming speed. Higher values make taming faster.",
+        "Keywords": "dino,taming,speed",
+        "FieldName": "TamingSpeedMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.TamingSpeedMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Harvest Amount",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for yields from all harvesting activities (chopping down trees, picking berries, carving carcasses, mining rocks, etc.). Higher values increase the amount of materials harvested with each strike.",
+        "Keywords": "harvest,amount",
+        "FieldName": "HarvestAmountMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.HarvestAmountMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Resource Respawn",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for the respawn rate for resource nodes (trees, rocks, bushes, etc.). Lower values cause nodes to respawn more frequently.",
+        "Keywords": "resource,respawn,rate,time",
+        "FieldName": "ResourcesRespawnPeriodMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.ResourcesRespawnPeriodMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Supress Replenish Radius (Player)",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Allow resources to regrow closer or farther away from players. Values higher than 1 increase the distance around players where resources are not allowed to grow back. Values between 0 and 1 will reduce it.",
+        "Keywords": "supress,resource,replenish,respawn,range,radius",
+        "FieldName": "ResourceNoReplenishRadiusPlayers",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/shootergame.shootergamemode.ResourceNoReplenishRadiusPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Supress Replenish Radius (Structure)",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Allow resources to regrow closer or farther away from structures. Values higher than 1 increase the distance around structures where resources are not allowed to grow back. Values between 0 and 1 will reduce it.",
+        "Keywords": "supress,resource,replenish,respawn,range,radius",
+        "FieldName": "ResourceNoReplenishRadiusStructures",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/shootergame.shootergamemode.ResourceNoReplenishRadiusStructures",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Clamp Resource Harvest Damage",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Limit the damage caused by a dino to a resource for harvesting.",
+        "Keywords": "clamp,resource,harvest,damage",
+        "FieldName": "ClampResourceHarvestDamage",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.ClampResourceHarvestDamage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": false
+    },
+    {
+        "DisplayName": "Use Optimized Harvesting Health",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Limit the damage caused by a dino to a resource for harvesting.",
+        "Keywords": "clamp,resource,harvest,damage",
+        "FieldName": "UseOptimizedHarvestingHealth",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.UseOptimizedHarvestingHealth",
+        "IncludeInCommandLine": false,
+        "DefaultValue": true
+    },
+    {
+        "DisplayName": "Harvest Health",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for the \"health\" of items that can be harvested (trees, rocks, carcasses, etc.). Higher values increase the amount of damage (i.e. \"number of strikes\") such objects can withstand before being destroyed, which results in higher overall harvest yields.",
+        "Keywords": "resource,harvest,health",
+        "FieldName": "HarvestHealthMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.HarvestHealthMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Day Night Cycle Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for the passage of time in the ARK, controlling how often day changes to night and night changes to day. The default value 1 provides the same cycle speed as the singleplayer experience (and the official public servers). Values lower than 1 slow down the cycle; higher values accelerate it. Base time when value is 1 appears to be 1 minute real time equals approx. 28 minutes game time. Thus, for an approximate 24 hour day/night cycle in game, use .035 for the value.",
+        "Keywords": "day,night,cycle,speed",
+        "FieldName": "DayCycleSpeedScale",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.DayCycleSpeedScale",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Day Time Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for the passage of time in the ARK during the day. This value determines the length of each day, relative to the length of each night (as specified by Night Time Speed. Lowering this value increases the length of each day.",
+        "Keywords": "day,cycle,speed",
+        "FieldName": "DayTimeSpeedScale",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.DayTimeSpeedScale",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Night Time Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Specifies the scaling factor for the passage of time in the ARK during night time. This value determines the length of each night, relative to the length of each day (as specified by Day Time Speed. Lowering this value increases the length of each night.",
+        "Keywords": "day,cycle,speed",
+        "FieldName": "NightTimeSpeedScale",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.NightTimeSpeedScale",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Disable Weather - Fog",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "If enabled, disables fog.",
+        "Keywords": "weather,fog",
+        "FieldName": "DisableWeatherFog",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.DisableWeatherFog",
+        "IncludeInCommandLine": false,
+        "DefaultValue": false
+    },
+    {
+        "DisplayName": "Global Spoiling Time",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Scales the spoiling time of perishables globally. Higher values prolong the time.",
+        "Keywords": "spoil,spoiling,time,speed",
+        "FieldName": "GlobalSpoilingTimeMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.GlobalSpoilingTimeMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Global Spoiling Time",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Will clamp all spoiling times to the items' maximum spoiling times. Could potentially cause issues with Mods that alter spoiling time.",
+        "Keywords": "clamp,spoil,spoiling,time",
+        "FieldName": "ClampItemSpoilingTimes",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.ClampItemSpoilingTimes",
+        "IncludeInCommandLine": false,
+        "DefaultValue": false
+    },
+    {
+        "DisplayName": "Global Item Decomp Time",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Scales the decomposition time of dropped items, loot bags etc. globally. Higher values prolong the decomposition time.",
+        "Keywords": "global,item,decomp,time",
+        "FieldName": "GlobalItemDecompositionTimeMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.GlobalItemDecompositionTimeMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Global Corpse Decomp Time",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Scales the decomposition time of corpses, (player and dinosaur), globally. Higher values prolong the time.",
+        "Keywords": "global,corpse,dino,player,decomp,time",
+        "FieldName": "GlobalCorpseDecompositionTimeMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.GlobalCorpseDecompositionTimeMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Crop Decay Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Higher number decrease (by percentage) speed of crop decay in plots.",
+        "Keywords": "crop,decay,speed,time",
+        "FieldName": "CropDecaySpeedMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.CropDecaySpeedMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Crop Growth Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Higher number increases (by percentage) speed of crop growth.",
+        "Keywords": "crop,growth,speed,time",
+        "FieldName": "CropGrowthSpeedMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.CropGrowthSpeedMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Lay Egg Interval",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Higher number increases (by percentage) time between eggs spawning / being laid.",
+        "Keywords": "crop,growth,speed,time",
+        "FieldName": "LayEggIntervalMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.LayEggIntervalMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Poop Interval",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Higher number decreases (by percentage) how frequently you can poop.",
+        "Keywords": "crop,growth,speed,time",
+        "FieldName": "PoopIntervalMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.PoopIntervalMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Hair Growth Speed",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "Higher number increase speed of hair growth.",
+        "Keywords": "crop,growth,speed,time",
+        "FieldName": "HairGrowthSpeedMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.HairGrowthSpeedMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Generic XP (Over Time) Multiplier",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "A multiplier to scale the amount of XP earned from generic XP (automatic over time).",
+        "Keywords": "xp,experience,generic",
+        "FieldName": "GenericXPMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.GenericXPMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Crafting XP Multiplier",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "A multiplier to scale the amount of XP earned from crafting.",
+        "Keywords": "xp,experience,crafting",
+        "FieldName": "CraftXPMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.CraftXPMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Harvesting XP Multiplier",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "A multiplier to scale the amount of XP earned from harvesting.",
+        "Keywords": "xp,experience,harvesting",
+        "FieldName": "HarvestXPMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.HarvestXPMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Killing XP Multiplier",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "A multiplier to scale the amount of XP earned from killing.",
+        "Keywords": "xp,experience,killing",
+        "FieldName": "KillXPMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.KillXPMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
+    },
+    {
+        "DisplayName": "Special XP Multiplier",
+        "Category": "ARK Settings",
+        "Subcategory": "Enviroment",
+        "Description": "A multiplier to scale the amount of XP earned from SpecialEvents.",
+        "Keywords": "xp,experience,killing",
+        "FieldName": "SpecialXPMultiplier",
+        "InputType": "number",
+        "MinValue": 0.0,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/script/engine.gamesession.SpecialXPMultiplier",
+        "IncludeInCommandLine": false,
+        "DefaultValue": 1.0,
+        "Suffix": "x"
     }
 ]

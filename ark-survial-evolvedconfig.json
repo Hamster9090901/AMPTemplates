@@ -753,7 +753,7 @@
     {
         "DisplayName": "Enable Global Voice Chat",
         "Category": "ARK Settings",
-        "Subcategory": "Chat and Notifications",
+        "Subcategory": "Chat & Notifications",
         "Description": "Makes voice chat global.",
         "Keywords": "voice,chat,global",
         "InputType": "checkbox",
@@ -764,22 +764,9 @@
         "DefaultValue": false
     },
     {
-        "DisplayName": "Enable \"Player Left\" Notifications",
-        "Category": "ARK Settings",
-        "Subcategory": "Chat and Notifications",
-        "Description": "Players will get notified if someone leaves the server.",
-        "Keywords": "leave,player,notification",
-        "InputType": "checkbox",
-        "FieldName": "alwaysNotifyPlayerLeft",
-        "IsFlagArgument": false,
-        "ParamFieldName": "ServerSettings.alwaysNotifyPlayerLeft",
-        "IncludeInCommandLine": false,
-        "DefaultValue": false
-    },
-    {
         "DisplayName": "Enable Proximity Text Chat",
         "Category": "ARK Settings",
-        "Subcategory": "Chat and Notifications",
+        "Subcategory": "Chat & Notifications",
         "Description": "Only players near each other can see eachothers chat messages.",
         "Keywords": "chat,text,proximity",
         "InputType": "checkbox",
@@ -792,13 +779,26 @@
     {
         "DisplayName": "Enable \"Player Joined\" Notifications",
         "Category": "ARK Settings",
-        "Subcategory": "Chat and Notifications",
+        "Subcategory": "Chat & Notifications",
         "Description": "Players will get notified if someone joins the server.",
         "Keywords": "join,player,notification",
         "InputType": "checkbox",
         "FieldName": "alwaysNotifyPlayerJoined",
         "IsFlagArgument": false,
         "ParamFieldName": "ServerSettings.alwaysNotifyPlayerJoined",
+        "IncludeInCommandLine": false,
+        "DefaultValue": false
+    },
+    {
+        "DisplayName": "Enable \"Player Left\" Notifications",
+        "Category": "ARK Settings",
+        "Subcategory": "Chat & Notifications",
+        "Description": "Players will get notified if someone leaves the server.",
+        "Keywords": "leave,player,notification",
+        "InputType": "checkbox",
+        "FieldName": "alwaysNotifyPlayerLeft",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerSettings.alwaysNotifyPlayerLeft",
         "IncludeInCommandLine": false,
         "DefaultValue": false
     },
@@ -1464,7 +1464,7 @@
     {
         "DisplayName": "Dino Spawns",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for dinosaur spawns. Higher values increase the number of dinosaurs spawned throughout the ARK.",
         "Keywords": "dino,spawn,count",
         "FieldName": "DinoCountMultiplier",
@@ -1479,7 +1479,7 @@
     {
         "DisplayName": "Taming Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for dinosaur taming speed. Higher values make taming faster.",
         "Keywords": "dino,taming,speed",
         "FieldName": "TamingSpeedMultiplier",
@@ -1494,7 +1494,7 @@
     {
         "DisplayName": "Harvest Amount",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for yields from all harvesting activities (chopping down trees, picking berries, carving carcasses, mining rocks, etc.). Higher values increase the amount of materials harvested with each strike.",
         "Keywords": "harvest,amount",
         "FieldName": "HarvestAmountMultiplier",
@@ -1509,7 +1509,7 @@
     {
         "DisplayName": "Resource Respawn",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for the respawn rate for resource nodes (trees, rocks, bushes, etc.). Lower values cause nodes to respawn more frequently.",
         "Keywords": "resource,respawn,rate,time",
         "FieldName": "ResourcesRespawnPeriodMultiplier",
@@ -1524,7 +1524,7 @@
     {
         "DisplayName": "Supress Replenish Radius (Player)",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Allow resources to regrow closer or farther away from players. Values higher than 1 increase the distance around players where resources are not allowed to grow back. Values between 0 and 1 will reduce it.",
         "Keywords": "supress,resource,replenish,respawn,range,radius",
         "FieldName": "ResourceNoReplenishRadiusPlayers",
@@ -1539,7 +1539,7 @@
     {
         "DisplayName": "Supress Replenish Radius (Structure)",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Allow resources to regrow closer or farther away from structures. Values higher than 1 increase the distance around structures where resources are not allowed to grow back. Values between 0 and 1 will reduce it.",
         "Keywords": "supress,resource,replenish,respawn,range,radius",
         "FieldName": "ResourceNoReplenishRadiusStructures",
@@ -1554,7 +1554,7 @@
     {
         "DisplayName": "Clamp Resource Harvest Damage",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Limit the damage caused by a dino to a resource for harvesting.",
         "Keywords": "clamp,resource,harvest,damage",
         "FieldName": "ClampResourceHarvestDamage",
@@ -1567,7 +1567,7 @@
     {
         "DisplayName": "Use Optimized Harvesting Health",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Limit the damage caused by a dino to a resource for harvesting.",
         "Keywords": "clamp,resource,harvest,damage",
         "FieldName": "UseOptimizedHarvestingHealth",
@@ -1580,7 +1580,7 @@
     {
         "DisplayName": "Harvest Health",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for the \"health\" of items that can be harvested (trees, rocks, carcasses, etc.). Higher values increase the amount of damage (i.e. \"number of strikes\") such objects can withstand before being destroyed, which results in higher overall harvest yields.",
         "Keywords": "resource,harvest,health",
         "FieldName": "HarvestHealthMultiplier",
@@ -1595,7 +1595,7 @@
     {
         "DisplayName": "Day Night Cycle Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for the passage of time in the ARK, controlling how often day changes to night and night changes to day. The default value 1 provides the same cycle speed as the singleplayer experience (and the official public servers). Values lower than 1 slow down the cycle; higher values accelerate it. Base time when value is 1 appears to be 1 minute real time equals approx. 28 minutes game time. Thus, for an approximate 24 hour day/night cycle in game, use .035 for the value.",
         "Keywords": "day,night,cycle,speed",
         "FieldName": "DayCycleSpeedScale",
@@ -1610,7 +1610,7 @@
     {
         "DisplayName": "Day Time Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for the passage of time in the ARK during the day. This value determines the length of each day, relative to the length of each night (as specified by Night Time Speed. Lowering this value increases the length of each day.",
         "Keywords": "day,cycle,speed",
         "FieldName": "DayTimeSpeedScale",
@@ -1625,7 +1625,7 @@
     {
         "DisplayName": "Night Time Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Specifies the scaling factor for the passage of time in the ARK during night time. This value determines the length of each night, relative to the length of each day (as specified by Day Time Speed. Lowering this value increases the length of each night.",
         "Keywords": "day,cycle,speed",
         "FieldName": "NightTimeSpeedScale",
@@ -1640,7 +1640,7 @@
     {
         "DisplayName": "Disable Weather - Fog",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "If enabled, disables fog.",
         "Keywords": "weather,fog",
         "FieldName": "DisableWeatherFog",
@@ -1653,7 +1653,7 @@
     {
         "DisplayName": "Global Spoiling Time",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Scales the spoiling time of perishables globally. Higher values prolong the time.",
         "Keywords": "spoil,spoiling,time,speed",
         "FieldName": "GlobalSpoilingTimeMultiplier",
@@ -1668,7 +1668,7 @@
     {
         "DisplayName": "Global Spoiling Time",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Will clamp all spoiling times to the items' maximum spoiling times. Could potentially cause issues with Mods that alter spoiling time.",
         "Keywords": "clamp,spoil,spoiling,time",
         "FieldName": "ClampItemSpoilingTimes",
@@ -1681,7 +1681,7 @@
     {
         "DisplayName": "Global Item Decomp Time",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Scales the decomposition time of dropped items, loot bags etc. globally. Higher values prolong the decomposition time.",
         "Keywords": "global,item,decomp,time",
         "FieldName": "GlobalItemDecompositionTimeMultiplier",
@@ -1696,7 +1696,7 @@
     {
         "DisplayName": "Global Corpse Decomp Time",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Scales the decomposition time of corpses, (player and dinosaur), globally. Higher values prolong the time.",
         "Keywords": "global,corpse,dino,player,decomp,time",
         "FieldName": "GlobalCorpseDecompositionTimeMultiplier",
@@ -1711,7 +1711,7 @@
     {
         "DisplayName": "Crop Decay Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Higher number decrease (by percentage) speed of crop decay in plots.",
         "Keywords": "crop,decay,speed,time",
         "FieldName": "CropDecaySpeedMultiplier",
@@ -1726,7 +1726,7 @@
     {
         "DisplayName": "Crop Growth Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Higher number increases (by percentage) speed of crop growth.",
         "Keywords": "crop,growth,speed,time",
         "FieldName": "CropGrowthSpeedMultiplier",
@@ -1741,7 +1741,7 @@
     {
         "DisplayName": "Lay Egg Interval",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Higher number increases (by percentage) time between eggs spawning / being laid.",
         "Keywords": "crop,growth,speed,time",
         "FieldName": "LayEggIntervalMultiplier",
@@ -1756,7 +1756,7 @@
     {
         "DisplayName": "Poop Interval",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Higher number decreases (by percentage) how frequently you can poop.",
         "Keywords": "crop,growth,speed,time",
         "FieldName": "PoopIntervalMultiplier",
@@ -1771,7 +1771,7 @@
     {
         "DisplayName": "Hair Growth Speed",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "Higher number increase speed of hair growth.",
         "Keywords": "crop,growth,speed,time",
         "FieldName": "HairGrowthSpeedMultiplier",
@@ -1786,7 +1786,7 @@
     {
         "DisplayName": "Generic XP (Over Time) Multiplier",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from generic XP (automatic over time).",
         "Keywords": "xp,experience,generic",
         "FieldName": "GenericXPMultiplier",
@@ -1801,7 +1801,7 @@
     {
         "DisplayName": "Crafting XP Multiplier",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from crafting.",
         "Keywords": "xp,experience,crafting",
         "FieldName": "CraftXPMultiplier",
@@ -1816,7 +1816,7 @@
     {
         "DisplayName": "Harvesting XP Multiplier",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from harvesting.",
         "Keywords": "xp,experience,harvesting",
         "FieldName": "HarvestXPMultiplier",
@@ -1831,7 +1831,7 @@
     {
         "DisplayName": "Killing XP Multiplier",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from killing.",
         "Keywords": "xp,experience,killing",
         "FieldName": "KillXPMultiplier",
@@ -1846,7 +1846,7 @@
     {
         "DisplayName": "Special XP Multiplier",
         "Category": "ARK Settings",
-        "Subcategory": "Enviroment",
+        "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from SpecialEvents.",
         "Keywords": "xp,experience,killing",
         "FieldName": "SpecialXPMultiplier",

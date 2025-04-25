@@ -810,7 +810,7 @@
     {
         "DisplayName": "Disable HUD",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "If enabled, player HUD is always disabled.",
         "Keywords": "hud",
         "InputType": "checkbox",
@@ -823,7 +823,7 @@
     {
         "DisplayName": "Allow Crosshair",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "If enabled, shows each player their crosshair.",
         "Keywords": "crosshair",
         "InputType": "checkbox",
@@ -836,7 +836,7 @@
     {
         "DisplayName": "Allow Third Person Player",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "Enables 3rd person view.",
         "Keywords": "third,person,view",
         "InputType": "checkbox",
@@ -849,7 +849,7 @@
     {
         "DisplayName": "Allow Player Map Location",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "Show each player their own precise position when they view their map.",
         "Keywords": "map,location,player",
         "InputType": "checkbox",
@@ -862,7 +862,7 @@
     {
         "DisplayName": "Show Floating Damage Numbers",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "Use this to enable RPG-style popup text stat mode.",
         "Keywords": "floating,damage,number",
         "InputType": "checkbox",
@@ -875,7 +875,7 @@
     {
         "DisplayName": "Allow Hit Markers",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "If enabled, shows hitmarkers for ranged attacks.",
         "Keywords": "hit,marker,damage",
         "InputType": "checkbox",
@@ -888,7 +888,7 @@
     {
         "DisplayName": "Disable PVE Gamma",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "Prevents use of console command \"gamma\" in PvE mode.",
         "Keywords": "gamma,pve,console",
         "InputType": "checkbox",
@@ -901,7 +901,7 @@
     {
         "DisplayName": "Enable PVP Gamma",
         "Category": "ARK Settings",
-        "Subcategory": "HUD and Visuals",
+        "Subcategory": "HUD & Visuals",
         "Description": "Allows use of console command \"gamma\" in PvP mode.",
         "Keywords": "gamma,pvp,console",
         "InputType": "checkbox",

@@ -927,8 +927,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "ServerSettings.AllowFlyerCarryPVE",
         "IncludeInCommandLine": false,
-        "DefaultValue": false,
-        "EnumValues": { }
+        "DefaultValue": true
     },
     {
         "DisplayName": "XP Multiplier",
@@ -943,9 +942,7 @@
         "ParamFieldName": "ServerSettings.XPMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Damage",
@@ -960,9 +957,7 @@
         "ParamFieldName": "ServerSettings.PlayerDamageMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Resistance",
@@ -977,9 +972,7 @@
         "ParamFieldName": "ServerSettings.PlayerResistanceMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Water Drain",
@@ -994,9 +987,7 @@
         "ParamFieldName": "ServerSettings.PlayerCharacterWaterDrainMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Food Drain",
@@ -1011,9 +1002,7 @@
         "ParamFieldName": "ServerSettings.PlayerCharacterFoodDrainMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Stamina Drain",
@@ -1028,9 +1017,7 @@
         "ParamFieldName": "ServerSettings.PlayerCharacterStaminaDrainMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Health Recovery",
@@ -1045,9 +1032,7 @@
         "ParamFieldName": "ServerSettings.PlayerCharacterHealthRecoveryMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Harvesting Damage",
@@ -1062,9 +1047,7 @@
         "ParamFieldName": "ServerSettings.HarvestAmountMultiplier",
         "IncludeInCommandLine": false,
         "DefaultValue": 1.0,
-        "Placeholder": 1.0,
-        "Suffix": "x",
-        "EnumValues": { }
+        "Suffix": "x"
     },
     {
         "DisplayName": "Crafting Skill Bonus Multiplier",

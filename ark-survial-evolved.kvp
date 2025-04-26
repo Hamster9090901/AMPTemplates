@@ -2,7 +2,7 @@ App.AdminLoginTransform=None
 App.AdminMethod=SourceRCON
 App.AdminPortRef=RCONPort
 App.ApplicationIPBinding=0.0.0.0
-App.ApplicationReadyMode=PeerConnected
+App.ApplicationReadyMode=RCONConnected
 App.BaseDirectory=./ark-survial-evolved/376030/
 App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} -servergamelog
 App.CommandLineParameterDelimiter=?
@@ -18,6 +18,7 @@ App.ExitString=DoExit
 App.ExitTimeout=30
 App.HasReadableConsole=true
 App.HasWritableConsole=true
+App.IgnoreSTDOUTAfterRCON=false
 App.LinuxCommandLineArgs=
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
 App.MaxUsers={{MaxPlayers}}

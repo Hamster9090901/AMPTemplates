@@ -1880,7 +1880,7 @@
         "Category": "ARK Settings",
         "Subcategory": "Environment",
         "Description": "A multiplier to scale the amount of XP earned from SpecialEvents.",
-        "Keywords": "xp,experience,killing",
+        "Keywords": "xp,experience,special,event",
         "FieldName": "SpecialXPMultiplier",
         "InputType": "number",
         "MinValue": 0.0,

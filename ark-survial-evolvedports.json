@@ -19,12 +19,5 @@
         "Ref": "QueryPort",
         "Name": "Query Port",
         "Description": "Port for Steam query traffic"
-    },
-    {
-        "Protocol": "TCP",
-        "Port": 27020,
-        "Ref": "RCONPort",
-        "Name": "RCON Port",
-        "Description": "Port for RCON traffic"
     }
 ]

@@ -5,7 +5,7 @@ App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=RCONConnected
 App.AppSettings={}
 App.BaseDirectory=./ark-survial-evolved/376030/
-App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{$RemoteAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} -servergamelog
+App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{ServerAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} -servergamelog
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
@@ -32,7 +32,7 @@ App.RCONConnectDelaySeconds=5
 App.RCONConnectRetrySeconds=5
 App.RCONHeartbeatCommand=GetGameLog
 App.RCONHeartbeatMinutes=0.09
-App.RemoteAdminPassword=
+App.RemoteAdminPassword={{ServerAdminPassword}}
 App.RootDir=./ark-survial-evolved/
 App.SteamForceLoginPrompt=False
 App.SteamUpdateAnonymousLogin=True

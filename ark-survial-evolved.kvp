@@ -5,7 +5,7 @@ App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=RCONConnected
 App.AppSettings={}
 App.BaseDirectory=./ark-survial-evolved/376030/
-App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerAdminPassword={{$RemoteAdminPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}} {{insecure}}{{BattlEye}} -servergamelog
+App.CommandLineArgs={{Map}}?listen?Port={{$GamePort}}?QueryPort={{$QueryPort}}?RCONEnabled=True?RCONServerGameLogBuffer=600?RCONPort={{$RCONPort}}?ServerPassword={{ServerPassword}}?ServerAdminPassword={{$RemoteAdminPassword}}?SpectatorPassword={{SpectatorPassword}}?SessionName="{{SessionName}}"?MultiHome={{$ApplicationIPBinding}}?AdminLogging={{AdminLogging}}?TribeLogDestroyedEnemyStructures={{TribeLogDestroyedEnemyStructures}}?AllowHitMarkers={{AllowHitMarkers}}?OnlyAutoDestroyCoreStructures={{OnlyAutoDestroyCoreStructures}}?OnlyDecayUnsnappedCoreStructures={{OnlyDecayUnsnappedCoreStructures}}?FastDecayUnsnappedCoreStructures={{FastDecayUnsnappedCoreStructures}} -culture={{culture}} {{EnableIdlePlayerKick}}{{insecure}}{{BattlEye}}{{nocombineclientmoves}}{{nodinos}}{{noundermeshchecking}}{{noundermeshkilling}}{{UseVivox}}{{UseItemDupeCheck}}{{ForceRespawnDinos}}{{noantispeedhack}}{{d3d10}}{{sm4}}{{lowmemory}}{{nomansky}}{{nomemorybias}}{{StasisKeepControllers}}{{allowansel}}{{structurememopts}}{{UseStructureStasisGrid}}{{crossplay}}{{epiconly}}{{servergamelogincludetribelogs}}{{AutoDestroyStructures}} -servergamelog
 App.CommandLineParameterDelimiter=?
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
@@ -32,7 +32,7 @@ App.RCONConnectDelaySeconds=5
 App.RCONConnectRetrySeconds=5
 App.RCONHeartbeatCommand=GetGameLog
 App.RCONHeartbeatMinutes=0.09
-App.RemoteAdminPassword={{ServerAdminPassword}}
+App.RemoteAdminPassword=
 App.RootDir=./ark-survial-evolved/
 App.SteamForceLoginPrompt=False
 App.SteamUpdateAnonymousLogin=True
@@ -43,7 +43,7 @@ App.UniversalSleepApplicationUDPPortRef=GamePort
 App.UniversalSleepSteamQueryPortRef=QueryPort
 App.UpdateSources=@IncludeJson[ark-survial-evolvedupdates.json]
 App.UseLinuxIOREDIR=False
-
+App.UseRandomAdminPassword=False
 App.WakeupMode=Any
 App.WindowsCommandLineArgs=
 App.WorkingDir=376030/ShooterGame/Binaries/Win64

@@ -28,24 +28,17 @@
         "Placeholder": "12345"
     },
     {
-        "DisplayName": "Server Admin Password",
+        "DisplayName": "Server Admin/RCON Password",
         "Category": "ARK Settings",
         "Subcategory": "Administration",
-        "Description": "If specified, players must provide this password (via the in-game console) to gain access to administrator commands on the server.",
-        "Keywords": "password,admin",
-        "FieldName": "ServerAdminPassword",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "ServerSettings.ServerAdminPassword",
-        "IncludeInCommandLine": false,
-        "DefaultValue": "",
-        "Placeholder": "12345"
+        "Description": "Must be changed within AMP. AMP provides a random password but that can be overriden if you wish. First navigate to the Privacy and Security menu and click on the \"Policies\" tab, then enable \"Allow User-defined Passwords\". Next click the \"Generic Config\" tab and disable \"Use random password\". Enter your new Admin / RCON password in the \"Remote Admin Password\" field (if text field isn't showing comfirm if you had changed the settings as stated previously).",
+        "Keywords": "password,admin,rcon"
     },
     {
         "DisplayName": "Spectator Password",
         "Category": "ARK Settings",
         "Subcategory": "Administration",
-        "Description": "To use non-admin spectator, the server must specify a spectator password. Then any client can use these console commands: 'requestspectator <password>' and 'stopspectating'.",
+        "Description": "To use non-admin spectator, the server must specify a spectator password. Then any client can use these console commands: \"requestspectator <password>\" and \"stopspectating\".",
         "Keywords": "password,spectator",
         "FieldName": "SpectatorPassword",
         "InputType": "text",

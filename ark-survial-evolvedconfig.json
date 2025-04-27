@@ -28,6 +28,18 @@
         "Placeholder": "12345"
     },
     {
+        "DisplayName": "Server Admin/RCON Password",
+        "Category": "ARK Settings",
+        "Subcategory": "Administration",
+        "Description": "Must be changed within AMP. AMP provides a random password but that can be overriden if you wish. First navigate to the Privacy and Security menu and click on the \"Policies\" tab, then enable \"Allow User-defined Passwords\". Next click the \"Generic Config\" tab and disable \"Use random password\". Enter your new Admin / RCON password in the \"Remote Admin Password\" field (if text field isn't showing comfirm if you had changed the settings as stated previously).",
+        "Keywords": "password,admin,rcon",
+        "FieldName": "AdminRCONPassword",
+        "InputType": "hidden",
+        "IsFlagArgument": false,
+        "ParamFieldName": "AdminRCONPassword",
+        "IncludeInCommandLine": false
+    },
+    {
         "DisplayName": "Spectator Password",
         "Category": "ARK Settings",
         "Subcategory": "Administration",

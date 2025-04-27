@@ -43,7 +43,7 @@ App.UniversalSleepApplicationUDPPortRef=GamePort
 App.UniversalSleepSteamQueryPortRef=QueryPort
 App.UpdateSources=@IncludeJson[ark-survial-evolvedupdates.json]
 App.UseLinuxIOREDIR=False
-App.UseRandomAdminPassword=True
+
 App.WakeupMode=Any
 App.WindowsCommandLineArgs=
 App.WorkingDir=376030/ShooterGame/Binaries/Win64

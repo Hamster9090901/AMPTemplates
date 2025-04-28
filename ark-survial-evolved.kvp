@@ -21,7 +21,7 @@ App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.LinuxCommandLineArgs=
 App.LiveSettingChangeCommandFormat=set {0} "{1}"
-App.MaxUsers=180
+App.MaxUsers={{/script/engine.gamesession.MaxPlayers}}
 App.MonitorChildProcess=False
 App.MonitorChildProcessName=
 App.MonitorChildProcessWaitMs=100
@@ -71,7 +71,7 @@ Meta.Author=Hamster9090901
 Meta.ConfigManifest=ark-survial-evolvedconfig.json
 Meta.ConfigReleaseState=
 Meta.ConfigRoot=ark-survial-evolved.kvp
-Meta.ConfigVersion=0.5
+
 Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Description=ARK: Survival Evolved Dedicated Server

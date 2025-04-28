@@ -192,7 +192,7 @@
         "MinValue": 1,
         "MaxValue": 255,
         "IsFlagArgument": false,
-        "ParamFieldName": "/script/engine.gamesession.MaxPlayers",
+        "ParamFieldName": "MaxPlayers",
         "IncludeInCommandLine": false,
         "DefaultValue": 70,
         "Placeholder": 70,

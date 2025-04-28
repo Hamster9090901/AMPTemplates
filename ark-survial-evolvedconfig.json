@@ -187,7 +187,7 @@
         "Subcategory": "Server Options",
         "Description": "Specifies the maximum number of players who can be on the server at any given time.",
         "Keywords": "max,player,count",
-        "FieldName": "MaxUsers",
+        "FieldName": "MaxPlayers",
         "InputType": "number",
         "MinValue": 1,
         "MaxValue": 255,
